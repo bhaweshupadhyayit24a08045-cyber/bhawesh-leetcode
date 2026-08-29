@@ -12,8 +12,8 @@ public:
                 if(count<0) return false;
             }
         }
-            if(count==0) return true;
-            return false;
+        if(count==0) return true;
+        return false;
         // stack<char> st;
         // for(auto it:curr){
         //     if(it=='('){ 
