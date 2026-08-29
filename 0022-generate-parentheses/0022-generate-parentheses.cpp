@@ -4,19 +4,29 @@ public:
     vector<string> result;
     string curr;
     bool isValid(string& curr) {
-        stack<char> st;
-        for(auto it:curr){
-            if(it=='('){ 
-                st.push(it);
-            }
+        int count=0;
+        for(auto it: curr){
+            if(it=='(') count++;
             else{
-                if(st.empty()){
-                    return false;
-                }
-                st.pop();
+                count--;
+                if(count<0) return false;
             }
         }
-        return(st.empty());
+            if(count==0) return true;
+            return false;
+        // stack<char> st;
+        // for(auto it:curr){
+        //     if(it=='('){ 
+        //         st.push(it);
+        //     }
+        //     else{
+        //         if(st.empty()){
+        //             return false;
+        //         }
+        //         st.pop();
+        //     }
+        // }
+        // return(st.empty());
     }
     void solve(string& curr, int n){
         if(curr.length()==2*n){
