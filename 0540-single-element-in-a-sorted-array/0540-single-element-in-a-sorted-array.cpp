@@ -8,7 +8,9 @@ public:
         while (left < right) {
 
             int mid = left + (right - left) / 2;
+            // so that mid remains at even positiona at all times
             if(mid%2==1) mid--;
+
             if (nums[mid] == nums[mid + 1]) {
                 left = mid + 2;
             } else {
@@ -16,6 +18,6 @@ public:
             }
         }
 
-        return nums[left];
+        return nums[right];
     }
 };
