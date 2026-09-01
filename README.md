@@ -5,6 +5,7 @@ A collection of LeetCode questions that i did for coding interview! -
 ## Array
 |  |
 | ------- |
+| [0046-permutations](https://github.com/bhaweshupadhyayit24a08045-cyber/bhawesh-leetcode/tree/master/0046-permutations) |
 | [0540-single-element-in-a-sorted-array](https://github.com/bhaweshupadhyayit24a08045-cyber/bhawesh-leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/bhaweshupadhyayit24a08045-cyber/bhawesh-leetcode/tree/master/2091-removing-minimum-and-maximum-from-array) |
 ## Greedy
@@ -18,6 +19,7 @@ A collection of LeetCode questions that i did for coding interview! -
 ## Backtracking
 |  |
 | ------- |
+| [0046-permutations](https://github.com/bhaweshupadhyayit24a08045-cyber/bhawesh-leetcode/tree/master/0046-permutations) |
 | [0113-path-sum-ii](https://github.com/bhaweshupadhyayit24a08045-cyber/bhawesh-leetcode/tree/master/0113-path-sum-ii) |
 ## Tree
 |  |
