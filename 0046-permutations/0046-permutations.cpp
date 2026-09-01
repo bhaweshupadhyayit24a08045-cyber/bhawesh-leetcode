@@ -16,14 +16,14 @@ public:
     void solve(vector<int>& nums, vector<int>& curr, vector<vector<int>>& ans){
         //base case
         if(curr.size()==nums.size()){
-            if(isValid(curr)) ans.push_back(curr);
+            ans.push_back(curr);
             return;
         }
 
         for(int i=0; i<nums.size();i++){
-        curr.push_back(nums[i]);
-        solve(nums, curr, ans);
-        curr.pop_back(); // undo(backtracking)
+            curr.push_back(nums[i]);
+            if(isValid(curr)) solve(nums, curr, ans);
+            curr.pop_back(); // undo(backtracking)
         }
     }
     vector<vector<int>> permute(vector<int>& nums) {
