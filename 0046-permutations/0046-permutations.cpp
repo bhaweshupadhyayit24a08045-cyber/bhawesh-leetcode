@@ -1,33 +1,30 @@
 class Solution {
 public:
-    vector<int> curr;
     vector<vector<int>> ans;
+    void solve(vector<int>& nums, vector<int>& curr, int i){
+        if(curr.size()==nums.size()){
+            ans.push_back(curr);
+            return;
+        } 
 
-    bool isValid(vector<int> curr){
         unordered_map<int, int> m;
         for(auto it: curr){
             m[it]++;
         }
-        for(auto it: m){
-            if(it.second>1) return false;
-        }
-        return true;
-    }
-    void solve(vector<int>& nums, vector<int>& curr, vector<vector<int>>& ans){
-        //base case
-        if(curr.size()==nums.size()){
-            ans.push_back(curr);
-            return;
-        }
 
-        for(int i=0; i<nums.size();i++){
-            curr.push_back(nums[i]);
-            if(isValid(curr)) solve(nums, curr, ans);
-            curr.pop_back(); // undo(backtracking)
+        for(int i=0; i<nums.size(); i++){
+            //valid
+            if(m.find(nums[i]) == m.end()) {
+                curr.push_back(nums[i]);
+                solve(nums, curr, i);
+                curr.pop_back(); // backtrack
+            }
         }
     }
     vector<vector<int>> permute(vector<int>& nums) {
-        solve(nums, curr, ans);
-        return ans;
+    vector<int> curr;
+    int i=0;
+    solve(nums, curr, i);
+    return ans;   
     }
 };
