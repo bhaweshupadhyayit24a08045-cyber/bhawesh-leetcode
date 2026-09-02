@@ -23,8 +23,7 @@ public:
     }
     vector<vector<int>> permute(vector<int>& nums) {
     vector<int> curr;
-    int i=0;
-    solve(nums, curr, i);
+    solve(nums, curr, 0);
     return ans;   
     }
 };
