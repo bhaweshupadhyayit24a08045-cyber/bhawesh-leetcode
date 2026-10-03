@@ -48,4 +48,8 @@ A collection of LeetCode questions that i did for coding interview! -
 |  |
 | ------- |
 | [0047-permutations-ii](https://github.com/bhaweshupadhyayit24a08045-cyber/bhawesh-leetcode/tree/master/0047-permutations-ii) |
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/bhaweshupadhyayit24a08045-cyber/bhawesh-leetcode/tree/master/0009-palindrome-number) |
 <!---LeetCode Topics End-->
