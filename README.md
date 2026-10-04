@@ -52,4 +52,12 @@ A collection of LeetCode questions that i did for coding interview! -
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/bhaweshupadhyayit24a08045-cyber/bhawesh-leetcode/tree/master/0009-palindrome-number) |
+## Two Pointers
+|  |
+| ------- |
+| [3794-reverse-string-prefix](https://github.com/bhaweshupadhyayit24a08045-cyber/bhawesh-leetcode/tree/master/3794-reverse-string-prefix) |
+## String
+|  |
+| ------- |
+| [3794-reverse-string-prefix](https://github.com/bhaweshupadhyayit24a08045-cyber/bhawesh-leetcode/tree/master/3794-reverse-string-prefix) |
 <!---LeetCode Topics End-->
