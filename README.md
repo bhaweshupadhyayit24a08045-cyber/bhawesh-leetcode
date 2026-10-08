@@ -5,6 +5,7 @@ A collection of LeetCode questions that i did for coding interview! -
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/bhaweshupadhyayit24a08045-cyber/bhawesh-leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0046-permutations](https://github.com/bhaweshupadhyayit24a08045-cyber/bhawesh-leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/bhaweshupadhyayit24a08045-cyber/bhawesh-leetcode/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/bhaweshupadhyayit24a08045-cyber/bhawesh-leetcode/tree/master/0078-subsets) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions that i did for coding interview! -
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/bhaweshupadhyayit24a08045-cyber/bhawesh-leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [3794-reverse-string-prefix](https://github.com/bhaweshupadhyayit24a08045-cyber/bhawesh-leetcode/tree/master/3794-reverse-string-prefix) |
 ## String
 |  |
